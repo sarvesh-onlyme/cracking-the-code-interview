@@ -36,6 +36,14 @@ climits
 INT_MAX		#Constant
 INT_MIN		#Constant
 
+cmath
+-----
+1. Absolute of number
+abs(INT)
+
+2. Max of two number
+max(a, b);
+
 stack
 -----
 stack<int> s;
@@ -57,6 +65,53 @@ INT = s.size()
 
 6. Swap two stack
 s.swap(s1)
+
+queue
+-----
+queue<int> q;
+
+1. Push
+q.push(INT)
+
+2. Pop
+q.pop()
+
+3. Front Element
+INT = q.front()
+
+4. Back Element
+INT = q.back()
+
+5. Check if stack is empty
+BOOL = q.empty()
+
+6. Size of stack
+INT = q.size()
+
+7. Swap two queue
+q.swap(q1)
+
+priority_queue
+--------------
+priority_queue<int> pq;
+
+1. Push
+pq.push(INT)
+
+2. Pop
+pq.pop()
+
+3. Top Element
+INT = pq.top()
+
+4. Check if stack is empty
+BOOL = pq.empty()
+
+5. Size of stack
+INT = pq.size()
+
+6. Swap two stack
+pq.swap(pq1)
 
 Vector
 ------
