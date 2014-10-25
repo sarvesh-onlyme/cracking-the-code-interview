@@ -115,6 +115,31 @@ pq.swap(pq1)
 
 Vector
 ------
+vector<type> vec (n)    #initialize n elements with 0
+
+1. Size of vector
+vec.size()
+
+2. Push element at back
+vec.push_back()
+
+3. Pop element from back
+vec.pop_back()
+
+4. Return vector iterator of begining
+vector<type>::iterator it = vec.begin()
+
+5. Return vector iterator of end
+vector<type>::iterator it = vec.end()
+
+6. check if vector is empty
+vec.empty()
+
+7. Access front element
+vec.front()
+
+8. Access back element
+vec.back()
 
 List
 ----
@@ -125,4 +150,8 @@ Map
 Algorithm
 ---------
 
+cstdio
+------
+1. Input from file via stdin
+freopen(FILENAME, "r", stdin)
 
