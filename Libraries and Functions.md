@@ -143,6 +143,50 @@ vec.back()
 
 List
 ----
+list<type> my
+
+1. Size of vector
+my.size()
+
+2. Push element at back
+my.push_back()
+
+3. Push element at front
+my.push_front()
+
+4. Pop element from back
+my.pop_back()
+
+5. Pop element from back
+my.pop_back()
+
+6. Return list iterator of begining
+list<type>::iterator it = my.begin()
+
+7. Return list iterator of end
+list<type>::iterator it = my.end()
+
+6. check if vector is empty
+my.empty()
+
+7. Access front element
+my.front()
+
+8. Access back element
+my.back()
+
+9. Insert element
+my.insert(it, VALUE)
+
+10. Remove element
+my.remove(VALUE)
+
+11. Sort element
+my.sort()       # put Upper Case obove than lower case
+
+12. Merger elements
+my.merge(my1)
+
 
 Map
 ---
