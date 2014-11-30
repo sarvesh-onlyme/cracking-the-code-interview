@@ -5,6 +5,11 @@ C++ Libraries and Usages
 Iostream
 --------
 
+cstdio
+------
+1. Input from file via stdin
+freopen(FILENAME, "r", stdin)
+
 
 string
 ------
@@ -193,9 +198,3 @@ Map
 
 Algorithm
 ---------
-
-cstdio
-------
-1. Input from file via stdin
-freopen(FILENAME, "r", stdin)
-
