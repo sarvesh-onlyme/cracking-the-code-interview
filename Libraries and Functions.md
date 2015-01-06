@@ -146,6 +146,9 @@ vec.front()
 8. Access back element
 vec.back()
 
+9. Resize or set size of vector
+vec.resize(WIDTH)
+
 List
 ----
 list<type> my
@@ -195,6 +198,41 @@ my.merge(my1)
 
 Map
 ---
+map<key, type> my
+
+1. Size of map
+my.size()
+
+2. Return map iterator of begining
+map<key, type>::iterator it = my.begin()
+
+3. Return map iterator of end
+map<key, type>::iterator it = my.end()
+
+4. Insert elements
+my.insert(pair<key, type>(KEY, VALUE));
+my[KEY] = VALUE;
+
+5. Clear all the pair
+my.clear();
+
+6. Erase element having key
+it = my.find(KEY)
+my.erase(it)
+
+7. check if map is empty
+my.empty()
+
+8. Size of map
+my.size()
+
+9. Max size a map can hold
+my.max_size()
+
+10. Find element
+it = my.find(KEY)
 
 Algorithm
 ---------
+
+yr()=5
